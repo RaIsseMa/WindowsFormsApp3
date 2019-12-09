@@ -20,7 +20,7 @@ namespace WindowsFormsApp3
             InitializeComponent();
            
         }
-        PrintDocument printDocument = new PrintDocument();
+ 
         DataTable table = new DataTable();
         DataTable table2 = new DataTable();
         DataSet ds = new DataSet();
@@ -31,8 +31,8 @@ namespace WindowsFormsApp3
             cmb.Items.Add("tabon");
             dataGridView1.Columns.Add(cmb);
             DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
-            btn.Text = "hawi";
-            btn.HeaderText = "click for fuck";
+            btn.Text = "gg";
+            btn.HeaderText = "click for pray";
             btn.Name = "btn";
             dataGridView1.Columns.Add(btn);*/
             /*ComboBox comboBoxHeaderCell1 = new ComboBox();
